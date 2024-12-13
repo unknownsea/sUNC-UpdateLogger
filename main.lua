@@ -27,7 +27,7 @@ sul.Events.OnCommit(2.5, function(latest_commit, unix, current_time)
 					},
                 },
                 footer = {
-                    text = latest_commit.author_name .. " | " .. latest_commit.created_at
+                    text = latest_commit.created_at
                 },
                 color = 0x000000
             }
